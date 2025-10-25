@@ -35,8 +35,8 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps ${{ matrix.project }}
 
-      - name: Build Forum Docker Image
-        run: docker build -t freboot/forum-private:latest .
+      - name: Pull Forum Docker Image
+        run: docker pull freboot/forum-private:latest
 
       - name: Start Forum Docker Container
         run: |
