@@ -13,7 +13,7 @@ import { EXISTING_USER } from '../data/test-data';
 
 test.describe('User Logout (Sign Out)', () => {
 
-/** 
+
   test('TC-LOGOUT-001: Should not access protected page after logout', async ({ page }) => {
     // Arrange - Login first
     const loginPage = new LoginPage(page);
@@ -60,7 +60,7 @@ test.describe('User Logout (Sign Out)', () => {
     expect(isLoggedOut).toBeTruthy();
 
   });
-**/
+
   test('TC-LOGOUT-003: Cannot access protected pages using browser back button', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const homePage = new HomePage(page);

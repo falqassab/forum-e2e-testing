@@ -68,18 +68,18 @@ export default defineConfig({
     },
 
     // /* Test against mobile viewports for responsive design checks */
-    // {
-    //   name: 'mobile-chrome',
-    //   use: { 
-    //     ...devices['Pixel 5']
-    //   },
-    // },
-    // {
-    //   name: 'mobile-safari',
-    //   use: { 
-    //     ...devices['iPhone 12']
-    //   },
-    // },
+     {
+      name: 'mobile-chrome',
+      use: { 
+        ...devices['Pixel 5']
+      },
+    },
+    {
+      name: 'mobile-safari',
+      use: { 
+        ...devices['iPhone 12']
+      },
+    },
 
     /* Test against branded browsers */
     // Branded browser projects (uncomment to enable testing against installed branded browsers)
