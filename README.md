@@ -18,7 +18,6 @@ This testing framework validates the forum application's core functionality incl
 
 #### Registration Tests (`signup.spec.ts`)
 
-|------------------------------------------------------------------------------------------|
 | Test ID | Test Case                  | Description                                       |
 |---------|----------------------------|---------------------------------------------------|
 | TC-REG-001 | Valid Registration      | Successful user registration with valid data      |
@@ -30,12 +29,10 @@ This testing framework validates the forum application's core functionality incl
 | TC-REG-007 | Duplicate Username      | Registration fails with existing username         |
 | TC-REG-008 | Duplicate Email         | Registration fails with existing email            |
 | TC-REG-009 | All buttons visible     | All buttons should be visible on                  |
-|--------------|----------------------------|----------------------------------------------|
 
 All buttons should be visible on Register page
 #### Login Tests (`login.spec.ts`)
 
-|--------------|----------------------------|----------------------------------------------|
 | Test ID      | Test Case                  | Description                                  |
 |--------------|----------------------------|----------------------------------------------|
 | TC-LOGIN-001 | Valid Login                | Successful login with valid credentials      |
@@ -46,16 +43,13 @@ All buttons should be visible on Register page
 | TC-LOGIN-006 | All Empty                  | Login fails with all fields empty            |
 | TC-LOGIN-007 | Session Persistence        | User remains logged in after page refresh    |
 | TC-LOGIN-008 | Navigation                 | Successful navigation to register page       |
-|--------------|----------------------------|----------------------------------------------|
 
 #### Logout Tests (`logout.spec.ts`)
-|---------------|-------------------|------------------------------------------------------|
 | Test ID       | Test Case         | Description                                          |
 |---------------|-------------------|------------------------------------------------------|
 | TC-LOGOUT-001 | Session Clearing  | Session is cleared after logout                      |
 | TC-LOGOUT-002 | Protected Routes  | Protected pages redirect after logout                |
 | TC-LOGOUT-003 | Browser Back      | Cannot access protected pages using back button      |
-|---------------|-------------------|------------------------------------------------------|
 
 ## Prerequisites
 
