@@ -30,7 +30,7 @@ This testing framework validates the forum application's core functionality incl
 | TC-REG-008 | Duplicate Email         | Registration fails with existing email            |
 | TC-REG-009 | All buttons visible     | All buttons should be visible on                  |
 
-All buttons should be visible on Register page
+
 #### Login Tests (`login.spec.ts`)
 
 | Test ID      | Test Case                  | Description                                  |
