@@ -21,8 +21,6 @@ LABEL org.opencontainers.image.title="forum" \
       org.opencontainers.image.description="forum web" \
       org.opencontainers.image.version="1.0.0" \
       org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.url="https://learn.reboot01.com/git/malsari/forum" \
-      maintainer="qassimahmed231@gmail.com"
 
 # Install sqlite runtime (needed for CGO SQLite)
 RUN apk add --no-cache sqlite-libs
